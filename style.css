@@ -1,0 +1,13 @@
+#name, #description,.lead {
+    text-align: center;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+}
+
+#cssimg{
+    height: 40%;
+
+}
