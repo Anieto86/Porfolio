@@ -18,8 +18,17 @@ app.set("view engine" , "handlebars"); // set view engine to se or look for any 
 
 // Routing for render 
 app.get('/', (req, res) => {
-    res.render("main"); // here we point the main.handlebars is not necesary put ".handlebars"
+    res.render("home"); // here we point the main.handlebars is not necesary put ".handlebars"
 });
+
+// app.get('/', (req, res) => {
+//     res.render("porfolio"); 
+// });
+
+// app.get('/', (req, res) => {
+//     res.render("contact"); 
+// });
+
 
 
 // Server configuration
