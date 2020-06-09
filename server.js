@@ -12,8 +12,8 @@ var PORT = process.env.PORT || 8080;
 
 
 //For use handlebar templated engine //  expbs()) this invoque handlebars
-app.engine('handlebars', exphbs({defalutLayout : 'main'}));
-app.set('views engine' , 'handlebars'); // set view engine to se or look for any file studies
+app.engine("handlebars", exphbs({defalutLayout:"main"}));
+app.set("view engine" , "handlebars"); // set view engine to se or look for any file studies
 
 
 // Routing for render 
