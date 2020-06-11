@@ -26,8 +26,13 @@ res.render("home", {
     name:"Alvaro Nieto"});
 });
 
+app.get ("/about", (req, res) =>{
+res.render("about")
+});
+
 app.get("/contact", (req, res) => {
-    res.render("contact", {title:"Contact"})
+    res.render("contact", 
+    {title:"Contact"});
 }); 
 
 
