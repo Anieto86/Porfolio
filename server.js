@@ -25,18 +25,22 @@ app.get("/", (req, res) => {
     res.render("home", {
         title: "Home Page",
         name: "Alvaro Nieto"
+
     });
 });
 
 app.get("/about", (req, res) => {
-    res.render("about")
-});
+    res.render("about", {
 
-app.get("/contact", (req, res) => {
-    res.render("contact",{ 
-            title: "Contact" 
+
     });
 });
+
+// app.get("/contact", (req, res) => {
+//     res.render("contact",{ 
+//             title: "Contact" 
+//     });
+// });
 
 app.get("/porfolio", (req, res) => {
     res.render("porfolio");

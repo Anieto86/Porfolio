@@ -11,42 +11,67 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  
+
+  {{!-- Font --}}
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+
   <title>{{title}}</title>
 
 </head>
 
+<body id="back">
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navo">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div></div>
-    </div>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Porfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
+
+
+  <ul class="nav ml-auto" id="navo">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="../">
+        <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
+          alt="" loading="lazy">Alvaro Nieto
+      </a>
+    </nav>
+    <li class="nav-item  ml-auto">
+      <a class="nav-link active nave" href="../about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active nave" href="../porfolio">Porfolio</a>
+    </li>
+    {{!-- <li class="nav-item">
+      <a class="nav-link active nave" href="../contact">Contact</a>
+    </li> --}}
+  </ul>
+
+
 
   {{{body}}}
 
+  <footer class="footer mt-auto py-3">
+    <div class="container-xl" id="footer">
+      <div class="row pl-3 pr-3 mt-3 mt-5 mb-5">
+        <div class="col-md-12 ">
+          <div class="container iconss">
+            <a href="https://www.linkedin.com/in/alvaro-fernando-nieto-guil/"> <img src="/linkedin.png" class="icons">
+            </a>
+            <a href="https://github.com/Anieto86"> <img src="/github.png" class="icons">
+            </a>
+            <a href=""> <img src="/mail.png" class="icons">
+            </a>
+            <a href=""> <img src="/cv.png" class="icons">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <center>
+    <div class="container firm ">
+      <p>©Alvaro Nieto | 2020 </p>
+    </div>
+  </center>
 
 
-</body>
 
-<!-- Optional JavaScript -->
+  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -57,5 +82,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/porfolios.js"></script>
+
+
+</body>
 
 </html>

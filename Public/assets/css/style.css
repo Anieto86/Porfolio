@@ -1,21 +1,60 @@
-#navo {
-    color:green;
+
+/* Homepage */
+
+#navo{
+
+  background-color: white;
+    padding-top: 2%;
+
+}
+
+.nave{
+  padding-top: 5%;
+  color:black;
+
+}
+
+#neuron {
+  width: 100%;
+  height: auto;
+  
 }
 
 
-.form-group {
-    padding: 5px;
-  margin: 5px;
-  background: aqua;
+#footer{
+  background-color: white;
+  height: 150px;
+  width: 50%;
 }
 
-#escroto{
-  color:green;
+
+#back {
+  background-color:black;
+  font-family: 'MuseoModerno', cursive;
 }
 
-h5 
-{ color:green;}
+.firm ,.txt {
+  color: white;
+}
 
-#txt-carousel {
+
+
+/* Porfolio */
+
+#txt-carousel{
   color: black;
+}
+
+
+
+
+.iconss{
+  padding-top: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons{
+  padding-top: 50px;
+
 }
