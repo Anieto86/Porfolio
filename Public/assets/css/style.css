@@ -5,36 +5,66 @@
 
   background-color: white;
     padding-top: 2%;
+    justify-content: space-evenly;
 
 }
 
 .nave{
   padding-top: 5%;
   color:black;
+  
 
 }
 
 #neuron {
   width: 100%;
   height: auto;
-  
+  color: black;
+  opacity: 0.75;
+
 }
 
 
 #footer{
   background-color: white;
-  height: 150px;
-  width: 50%;
+  height: 100px;
+  width: 25%;
+  opacity: 0.75;
 }
 
+.iconss{
+  padding-top: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
 
-#back {
+.icons{
+  padding-top: 30px;
+  
+}
+
+.back {
+  
+/*   
+  background-repeat: no-repeat;
+  background-position:  center 300px; */
+}
+
+#background{
+  background-image: url("/backgroundPhoto.png");
   background-color:black;
   font-family: 'MuseoModerno', cursive;
 }
 
 .firm ,.txt {
   color: white;
+}
+
+
+
+.card-title ,.card-text{
+  color: black;
 }
 
 
@@ -48,13 +78,8 @@
 
 
 
-.iconss{
-  padding-top: 2px;
-  display: flex;
-  justify-content: space-evenly;
-}
 
-.icons{
-  padding-top: 50px;
+/* About */
 
-}
+
+
